@@ -1,0 +1,18 @@
+name: format
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  prettier:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+      - name: Install dependencies
+        run: yarn install --immutable
+      - name: Run prettier
+        run: yarn run formatCheck
