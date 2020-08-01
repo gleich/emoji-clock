@@ -1,5 +1,8 @@
 # emoji-clock README
 
+![format](https://github.com/Matt-Gleich/emoji-clock/workflows/format/badge.svg)
+![lint](https://github.com/Matt-Gleich/emoji-clock/workflows/lint/badge.svg)
+
 This is the README for your extension "emoji-clock". After writing up a brief description, we recommend including the following sections.
 
 ## Features
