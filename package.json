@@ -17,7 +17,134 @@
     "commands": [
       {
         "command": "emoji-clock.helloWorld",
-        "title": "Hello World"
+        "title": "Emoji Clock",
+        "properties": {
+          "emojiClock.format": {
+            "type": "string",
+            "default": "LT",
+            "description": "Format for the time being displayed"
+          },
+          "emojiClock.hour.1": {
+            "type": "string",
+            "default": "🕐",
+            "description": "Emoji for when the time is 1AM"
+          },
+          "emojiClock.hour.2": {
+            "type": "string",
+            "default": "🕑",
+            "description": "Emoji for when the time is 2AM"
+          },
+          "emojiClock.hour.3": {
+            "type": "string",
+            "default": "🕒",
+            "description": "Emoji for when the time is 3AM"
+          },
+          "emojiClock.hour.4": {
+            "type": "string",
+            "default": "🕓",
+            "description": "Emoji for when the time is 4AM"
+          },
+          "emojiClock.hour.5": {
+            "type": "string",
+            "default": "🕔",
+            "description": "Emoji for when the time is 5AM"
+          },
+          "emojiClock.hour.6": {
+            "type": "string",
+            "default": "🕕",
+            "description": "Emoji for when the time is 6AM"
+          },
+          "emojiClock.hour.7": {
+            "type": "string",
+            "default": "🕖",
+            "description": "Emoji for when the time is 7AM"
+          },
+          "emojiClock.hour.8": {
+            "type": "string",
+            "default": "🕗",
+            "description": "Emoji for when the time is 8AM"
+          },
+          "emojiClock.hour.9": {
+            "type": "string",
+            "default": "🕘",
+            "description": "Emoji for when the time is 9AM"
+          },
+          "emojiClock.hour.10": {
+            "type": "string",
+            "default": "🕙",
+            "description": "Emoji for when the time is 10AM"
+          },
+          "emojiClock.hour.11": {
+            "type": "string",
+            "default": "🕚",
+            "description": "Emoji for when the time is 11AM"
+          },
+          "emojiClock.hour.12": {
+            "type": "string",
+            "default": "🕛",
+            "description": "Emoji for when the time is 12AM"
+          },
+          "emojiClock.hour.13": {
+            "type": "string",
+            "default": "🕐",
+            "description": "Emoji for when the time is 1PM"
+          },
+          "emojiClock.hour.14": {
+            "type": "string",
+            "default": "🕑",
+            "description": "Emoji for when the time is 2PM"
+          },
+          "emojiClock.hour.15": {
+            "type": "string",
+            "default": "🕒",
+            "description": "Emoji for when the time is 3PM"
+          },
+          "emojiClock.hour.16": {
+            "type": "string",
+            "default": "🕓",
+            "description": "Emoji for when the time is 4PM"
+          },
+          "emojiClock.hour.17": {
+            "type": "string",
+            "default": "🕔",
+            "description": "Emoji for when the time is 5PM"
+          },
+          "emojiClock.hour.18": {
+            "type": "string",
+            "default": "🕕",
+            "description": "Emoji for when the time is 6PM"
+          },
+          "emojiClock.hour.19": {
+            "type": "string",
+            "default": "🕖",
+            "description": "Emoji for when the time is 7PM"
+          },
+          "emojiClock.hour.20": {
+            "type": "string",
+            "default": "🕗",
+            "description": "Emoji for when the time is 8PM"
+          },
+          "emojiClock.hour.21": {
+            "type": "string",
+            "default": "🕘",
+            "description": "Emoji for when the time is 9PM"
+          },
+          "emojiClock.hour.22": {
+            "type": "string",
+            "default": "🕙",
+            "description": "Emoji for when the time is 10PM"
+          },
+          "emojiClock.hour.23": {
+            "type": "string",
+            "default": "🕚",
+            "description": "Emoji for when the time is 11PM"
+          },
+          "emojiClock.hour.24": {
+            "type": "string",
+            "default": "🕛",
+            "description": "Emoji for when the time is 12PM"
+          }
+        }
       }
     ]
   },
@@ -43,5 +170,8 @@
     "prettier": "2.0.5",
     "typescript": "^3.8.3",
     "vscode-test": "^1.3.0"
+  },
+  "dependencies": {
+    "moment": "^2.27.0"
   }
 }
